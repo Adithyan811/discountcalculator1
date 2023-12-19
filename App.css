@@ -1,0 +1,51 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.container{
+  display: flex;
+  padding: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.App{
+  background-image: url('https://stockphotoadviser.com/files/2019/10/Contributors-Royalty-Comparison-Cover-760x510.jpg');
+  background-size: cover;
+  padding: 110px;
+  height: 600px;
+}
+h1{
+  color:rgb(0, 0, 0);
+  text-align: center;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#standard-basic{
+  width: 500px;
+}
+.second{
+  margin-left: 90px;
+  margin-top: 50px;
+  width: 500px;
+}
+.second h1{
+  font-size: 40px;
+  margin-left: 55px;
+}
+
+.button-group{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.second h3{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+  color:rgb(8, 1, 1);
+}
